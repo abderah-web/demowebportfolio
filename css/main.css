@@ -1,0 +1,28 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 80%;
+}
+header{
+background-color: beige;
+border: solid 1px black;
+border-radius:2px;
+}
+nav {
+    background-color: bisque;
+}
+main{
+    background-color: aqua;
+    font-size: 15px;
+}
+footer {
+    background-color: antiquewhite;
+}
+li {
+    display: inline-block;
+    width: 200px ;
+}
+    h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: red;
+}
