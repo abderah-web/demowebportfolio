@@ -8,8 +8,31 @@ border: solid 1px black;
 border-radius:2px;
 }
 nav {
-    background-color: bisque;
+    display: inline-block;
+    width: 80%;
 }
+
+.img_index {
+    width: 10%;
+    position: relative; 
+    top: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: inherit;
+}
+.grid img {
+    width: 80%;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 main{
     background-color: aqua;
     font-size: 15px;
@@ -17,11 +40,9 @@ main{
 footer {
     background-color: antiquewhite;
 }
-li {
-    display: inline-block;
-    width: 200px ;
-}
-    h1 {
+
+
+h1 { 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: red;
